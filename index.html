@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <ul class="container">
+        <li data-keyboard="a" class="pianoKey white"><button data-keyboard="a" data-key="65" data-note="C" ><h1>A</h1></button></li>
+        <li data-keyboard="w" class="pianoKey black"><button data-keyboard="w" data-key="87" data-note="C#"><h1>W</h1></button></div>
+        <li data-keyboard="s" class="pianoKey white"><button data-keyboard="s" data-key="83" data-note="D" ><h1>S</h1></button></div>
+        <li data-keyboard="e" class="pianoKey black"><button data-keyboard="e" data-key="69" data-note="D#"><h1>E</h1></button></div>
+        <li data-keyboard="d" class="pianoKey white"><button data-keyboard="d" data-key="68" data-note="E" ><h1>D</h1></button></div>
+        <li data-keyboard="f" class="pianoKey white"><button data-keyboard="f" data-key="70" data-note="F" ><h1>F</h1></button></div>
+        <li data-keyboard="t" class="pianoKey black"><button data-keyboard="t" data-key="84" data-note="F#"><h1>T</h1></button></div>
+        <li data-keyboard="g" class="pianoKey white"><button data-keyboard="g" data-key="71" data-note="G" ><h1>G</h1></button></div>
+        <li data-keyboard="y" class="pianoKey black"><button data-keyboard="y" data-key="89" data-note="G#"><h1>Y</h1></button></div>
+        <li data-keyboard="h" class="pianoKey white"><button data-keyboard="h" data-key="72" data-note="A" ><h1>H</h1></button></div>
+        <li data-keyboard="u" class="pianoKey black"><button data-keyboard="u" data-key="85" data-note="A#"><h1>U</h1></button></div>
+        <li data-keyboard="j" class="pianoKey white"><button data-keyboard="j" data-key="74" data-note="B" ><h1>J</h1></button></div>
+        <li data-keyboard="k" class="pianoKey white"><button data-keyboard="k" data-key="75" data-note="C" ><h1>K</h1></button></div>
+        <li data-keyboard="o" class="pianoKey black"><button data-keyboard="o" data-key="79" data-note="C#"><h1>O</h1></button></div>
+        <li data-keyboard="l" class="pianoKey white"><button data-keyboard="l" data-key="76" data-note="D" ><h1>L</h1></button></div>
+        <li data-keyboard="p" class="pianoKey black"><button data-keyboard="p" data-key="80" data-note="D#"><h1>P</h1></button></div>
+        <li data-keyboard="ç" class="pianoKey white"><button data-keyboard="ç" data-key="186" data-note="E"><h1>Ç</h1></button></div>
+    </ul>
+    <section>
+        <audio data-keyboard="a" src="./sounds/040.wav"></audio>
+        <audio data-keyboard="w" src="./sounds/041.wav"></audio>
+        <audio data-keyboard="s" src="./sounds/042.wav"></audio>
+        <audio data-keyboard="e" src="./sounds/043.wav"></audio>
+        <audio data-keyboard="d" src="./sounds/044.wav"></audio>
+        <audio data-keyboard="f" src="./sounds/045.wav"></audio>
+        <audio data-keyboard="t" src="./sounds/046.wav"></audio>
+        <audio data-keyboard="g" src="./sounds/047.wav"></audio>
+        <audio data-keyboard="y" src="./sounds/048.wav"></audio>
+        <audio data-keyboard="h" src="./sounds/049.wav"></audio>
+        <audio data-keyboard="u" src="./sounds/050.wav"></audio>
+        <audio data-keyboard="j" src="./sounds/051.wav"></audio>
+        <audio data-keyboard="k" src="./sounds/052.wav"></audio>
+        <audio data-keyboard="o" src="./sounds/053.wav"></audio>
+        <audio data-keyboard="l" src="./sounds/054.wav"></audio>
+        <audio data-keyboard="p" src="./sounds/055.wav"></audio>
+        <audio data-keyboard="ç" src="./sounds/056.wav"></audio>
+    </section>
+    <script src="./utils/whatIsTheKey.js"></script>
+    <script src="./utils/cantFoundKey.js"></script>
+    <script src="./utils/playAudio.js"></script>
+    <script src="./utils/addClassPressedButton.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
