@@ -1,5 +1,7 @@
 # Piano-js
 
+![imagem do piano](https://user-images.githubusercontent.com/70171892/181303118-7760f626-bce0-40a1-9a21-2e1947acb446.png)
+
 # <h2>💻 Projeto</h2>
 
 Piano virtual onde o usuário pode tocar musica utilizando o mause para clicar nas "teclas" do piano ou utilizando o teclado do proprio computador. Este projeto foi criado com o intuito de estudar o controle da DOM nos browsers utilizando javascript puro com html e css.
