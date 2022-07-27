@@ -9,9 +9,9 @@ Piano virtual onde o usuário pode tocar musica utilizando o mause para clicar n
 <h2>🧪Tecnologias</h2>
 <h4>Esse projeto foi desenvolvido com as seguintes tecnologias: </h4>
 
-* [Javascript](https://reactnative.dev)
-* [HTML](https://www.typescriptlang.org)
-* [Css](https://nativebase.io)
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 # <h2>🚀 Como executar</h2>
 Clone o projeto e acesse a pasta do mesmo.
